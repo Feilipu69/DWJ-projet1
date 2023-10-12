@@ -504,8 +504,9 @@ form
 {
 	position: absolute;
 	top: 17%;
-	right: 11%;
+	right: 12.5%;
 }
+		
 
 textarea[placeholder]
 {
@@ -520,6 +521,7 @@ textarea::placeholder
 
 input
 {
+	width: 252px;
 	padding: 3px 0px;
 }
 
@@ -759,7 +761,9 @@ input[type="submit"]
 	#contact
 	{
 		position: static;
-		padding-top: 37%;
+		padding: 2% 0;
+		width: 80%;
+		margin: auto;
 	}
 
 	.fond_gris
@@ -767,13 +771,10 @@ input[type="submit"]
 		display: none;
 	}
 
-	iframe
-	{
+	#carte {
 		width: 100%;
-		height: 1%;
-		
 	}
-
+	
 	.formulaire
 	{ 
 		display: none;
@@ -781,16 +782,12 @@ input[type="submit"]
 
 	form
 	{
+		width: 260px;
 		position: static;
 		margin: auto;
 		top: 340px;
-		padding: 10px;
+		padding: 0 10px;
 		background: #3491b217;
-	}
-
-	form input, form textarea
-	{
-		width: auto;
 	}
 }
 
@@ -833,9 +830,9 @@ input[type="submit"]
 		margin: 3%; 
 	}
 
-	form
+	.formulaire
 	{
-		width: 320px;
+		right: 8%;
 	}
 }
 
@@ -894,7 +891,7 @@ input[type="submit"]
 
 	.formulaire
 	{
-		width: 320px;
+		width: 305px;
 	}
 }
 
